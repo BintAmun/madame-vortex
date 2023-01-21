@@ -2,13 +2,39 @@
 
 <p>Portland’s Queen of Subtlety</p>
 
-<%= image_tag "logo.png", alt: "Le Wagon", width: 200 %>
+<%# <%= image_tag "logo.png", alt: "Le Wagon", width: 200 %> 
 
-<div class="logo"></div>
+<%# <div class="logo"></div> %>
 
-<%= cl_image_tag("Image_1_iacbhe",
-      width: 400, height: 300, crop: :fill) %>
 
+
+
+
+
+
+
+
+<%# https://res.cloudinary.com/dl4ksvrvh/image/upload/v1673811967/Image_2_up4hi4.jpg     Image_1_iacbhe %>
+<%# BANNER %>
+<div class="banner" style="background-image: linear-gradient(rgba(1,1,1,0),rgba(1,1,1,0)), url('https://res.cloudinary.com/dl4ksvrvh/image/upload/v1673811967/Image_2_up4hi4.jpg ');">
+  <div class="container">
+    <div>
+        <center>
+            <h1><span>Welcome.</span></h1>
+            <br> <br><br>
+            <h1><span>...Sit Down... </span></h1>
+            <br><br><br>
+            <h1><span><strong>..Take a Death..</strong> </span></h1>
+            <br><br><br>
+            <h1><span>This will take a while</span></h1>
+            <p>Change your life and learn to code at one of our campuses around the world.</p>
+            <a class="btn btn-flat" href="#">Apply now</a>
+        </div>
+        </center>
+    </div>
+</div>
+
+<%# https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/background.png %>
 
 <%# bootstrap card %>
 <div class="container">
@@ -22,9 +48,10 @@
     </div>
 </div>
 
-
+<%# button %>
 <i class="fa-solid fa-volcano"></i>
 
+<%# card for background image %>
 <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/breakfast.jpg)">
   Breakfast
 </div>
