@@ -1,9 +1,14 @@
 // Specific CSS for your home-page
 h1 {
-    color: $red;
-    &:hover {
-        color: $blue;
-    }
+    color: violet;
+    // &:hover {
+    //     color: $red;
+    // }
+    font-family:'Copperplate Gothic Light';
+    // background-color: rgb(122, 17, 226);
+}
+.whip{
+    color: red;
 }
 
 p {

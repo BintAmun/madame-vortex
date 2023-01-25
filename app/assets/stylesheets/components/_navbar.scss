@@ -1,6 +1,11 @@
 .navbar-lewagon {
-  justify-content: space-between;
-  background: white;
+  justify-content: space-around, center;
+  background: rgb(189, 11, 233);
+  position: fixed;
+  top: 5; 
+  width: 100%;
+  font-family: Copperplate Gothic Light;
+ 
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -10,3 +15,4 @@
 .navbar-lewagon .navbar-brand img {
   width: 40px;
 }
+ 
