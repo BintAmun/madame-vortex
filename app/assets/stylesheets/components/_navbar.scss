@@ -2,10 +2,10 @@
   justify-content: space-around, center;
   background: rgb(189, 11, 233);
   position: fixed;
-  top: 5; 
+  top: 100px; 
   width: 100%;
   font-family: Copperplate Gothic Light;
- 
+  margin-top: -100px;
 }
 
 .navbar-lewagon .navbar-collapse {
