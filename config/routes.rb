@@ -6,4 +6,6 @@ Rails.application.routes.draw do
   # root "articles#index"
 
   #get "/about"
+
+  resources :inquiries, only: [:new, :create]
 end
